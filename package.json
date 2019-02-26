@@ -1,0 +1,12 @@
+{
+  "name": "pullstart",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": {
+    "pullstart": "./cli.js"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "qoa": "^0.2.0"
+  }
+}
