@@ -2,7 +2,7 @@
   "name": "pullstart",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "./cli.js"
+  "main": "./cli.js",
   "bin": {
     "pullstart": "./cli.js"
   },
