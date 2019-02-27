@@ -2,6 +2,7 @@
   "name": "pullstart",
   "version": "1.0.2",
   "license": "MIT",
+  "author": "Matt Christians <christians.matt@gmail.com> (https://matt.tc)",
   "bin": {
     "pullstart": "./cli.js"
   },
