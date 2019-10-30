@@ -7,7 +7,7 @@ export class GeneralComponent extends Component {
 
 	render() {
 		return (
-			<div dashCase="general-component">
+			<div className="general-component">
 				<h1>GeneralComponent</h1>
 			</div>
 		)

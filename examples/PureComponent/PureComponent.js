@@ -7,7 +7,7 @@ export class PureComponent extends PureComponent {
 
 	render() {
 		return (
-			<div dashCase="pure-component">
+			<div className="pure-component">
 				<h1>PureComponent</h1>
 			</div>
 		)

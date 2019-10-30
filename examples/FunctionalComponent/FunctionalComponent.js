@@ -6,7 +6,7 @@ const defaultProps = {};
 
 function FunctionalComponent(props) {
 	return (
-		<div dashCase="functional-component">
+		<div className="functional-component">
 			<h1>FunctionalComponent</h1>
 		</div>
 	)
