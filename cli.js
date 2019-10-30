@@ -12,7 +12,8 @@ const {
 	createComponentScss,
 	createFunctionalComponent,
 	createConnectedComponent,
-	createComponent
+	createComponent,
+	createComponentTest
 } = require('./lib/files');
 
 const kickoff = async () => {
@@ -101,7 +102,7 @@ kickoff()
 			// Create component test
 			fs.writeFileSync(
 			  path.join(rootPath, `${packageName}.test.js`),
-			  '// test' + os.EOL
+			  createComponentTest + os.EOL
 			);
 		}
 
@@ -132,7 +133,7 @@ kickoff()
 			// Create component test
 			fs.writeFileSync(
 			  path.join(rootPath, `${packageName}.test.js`),
-			  '// test' + os.EOL
+			  createComponentTest + os.EOL
 			);
 		}
 
@@ -163,7 +164,7 @@ kickoff()
 			// Create component test
 			fs.writeFileSync(
 			  path.join(rootPath, `${packageName}.test.js`),
-			  '// test' + os.EOL
+			  createComponentTest + os.EOL
 			);
 		}
 	});
