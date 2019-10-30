@@ -14,7 +14,7 @@ export class ConnectedComponent extends Component {
 
 	render() {
 		return (
-			<div dashCase="connected-component">
+			<div className="connected-component">
 				<h1>ConnectedComponent</h1>
 			</div>
 		)
